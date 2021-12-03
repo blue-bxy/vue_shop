@@ -21,6 +21,7 @@ Vue.prototype.$http = axios
 
 Vue.config.productionTip = false
 
+/*注册全局可用组件 */
 Vue.component('tree-table', TreeTable)
 
 new Vue({
